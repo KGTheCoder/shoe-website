@@ -28,6 +28,10 @@
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
+.nav-item + .nav-item {
+  margin-left: 1rem;
+}
+
 .containerOfCards {
   padding: 6rem 0 4rem;
 }
