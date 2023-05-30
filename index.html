@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>eCommerce shop - Home</title>
+  </head>
+  <body>
+    <section class="navBar fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img />
+          </a>
+
+          <div class="contentLinks align-items-right">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#banner"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#titleOfCards"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item text-light">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#footer"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Login
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="banner d-flex align-items-center" id="banner">
+      <div class="row">
+        <div class="col">
+          <p class="fs-1">DAYS OF DEALS</p>
+          <p class="fs-2">The time to create is now!</p>
+          <button class="btn btn-primary mt-2" type="button">
+            Check our deals!
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="container containerOfCards" id="titleOfCards">
+      <div class="row">
+        <div class="col">
+          <h2 class="fs-1 text-center">PRODUCTS</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <img
+              src="assets/adidas-kaptir.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Adidas Kaptir</h5>
+              <div class="card-text">
+                <div>Made in the USA</div>
+                <div>Rubber sole</div>
+                <div>Synthetic outsole for grip</div>
+                <div>Lace closure for grip</div>
+                <h5>$ 45.00</h5>
+              </div>
+              <a href="product.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img
+              src="assets/new balance-608 v5.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">New Balance 608 V5</h5>
+              <div class="card-text">
+                <div>Leather upper</div>
+                <div>Rubber sole</div>
+                <div>Comfort insert</div>
+                <div>100% Leather</div>
+                <h5>$58.65</h5>
+              </div>
+              <a href="product.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img
+            src="assets/under armor-assert 5.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Under Armor Assert 5</h5>
+            <div class="card-text">
+              <div>Made in the USA</div>
+              <div>Ethylene Vinyl Acetate sole</div>
+              <div>Lace-up closure</div>
+              <div>Lightweight mesh</div>
+              <h5>$46.96</h5>
+            </div>
+            <a href="product.html" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img
+            src="assets/deer stags - greenpoint.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Deer Stags Greenpoint</h5>
+            <div class="card-text">
+              <div>100% Simulated leather</div>
+              <div>Imported</div>
+              <div>Stacked heel</div>
+              <div>Lightly padded insole</div>
+              <h5>$35.97</h5>
+            </div>
+            <a href="product.html" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img
+            src="assets/skechers - delson-camden.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Skechers Delson-Camden</h5>
+            <div class="card-text">
+              <div>100% Textile and synthetic</div>
+              <div>Imported</div>
+              <div>Bungee lace</div>
+              <div>Rubber sole</div>
+              <h5>$50.53</h5>
+            </div>
+            <a href="product.html" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="card">
+          <img
+            src="assets/skechers - milford.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Skechers Milford</h5>
+            <div class="card-text">
+              <div>Imported</div>
+              <div>Rubber sole</div>
+              <div>Soft fabric shoe lining</div>
+              <div>100% Suede fabric</div>
+              <h5>$41.99</h5>
+            </div>
+            <a href="product.html" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

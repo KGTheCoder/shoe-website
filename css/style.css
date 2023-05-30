@@ -1,0 +1,48 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  margin: -1px;
+}
+
+.navbar {
+  background-color: #376ab6;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav-item a {
+  color: rgba(133, 167, 199, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.containerOfCards {
+  padding: 6rem 0 4rem;
+}
+
+.col-sm-4 {
+  padding-top: 2%;
+}
+
+.card {
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
