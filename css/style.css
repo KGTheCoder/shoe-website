@@ -33,15 +33,18 @@
 }
 
 .banner {
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../assets/adidas-kaptir.jpg");
+  background-image: url("../assets/shoe-banner.jpg");
+  background-size: 1500px;
+  height: 100vh;
+  width: 100vw;
   background-attachment: fixed;
 }
 
 .banner .row {
   padding: 6rem 0 4rem;
+  color: #fff;
 }
 
 .containerOfCards {
