@@ -9,6 +9,10 @@
   margin: -1px;
 }
 
+.body {
+  background-color: lightblue;
+}
+
 .navbar {
   background-color: #376ab6;
 }
@@ -18,7 +22,7 @@
 }
 
 .nav-item a {
-  color: rgba(0, 119, 230, 0.5);
+  color: rgba(0, 230, 81, 0.5);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
 }
@@ -45,30 +49,36 @@
 .banner .row {
   background: aqua;
   padding: 6rem 0 4rem;
-  color: #fff;
+  color: rgb(195, 84, 84);
 }
 
 .containerOfCards {
+  background-color: red;
   padding: 6rem 0 4rem;
 }
 
-.col-sm-4 {
+.col-md-2 {
+  background-color: yellow;
   padding-top: 4%;
 }
 
 .card-img-top {
-  height: 40%;
+  width: 100%;
+  height: 10vw;
 }
 
 .card-text {
+  background-color: blueviolet;
   padding: 10%;
 }
 
 .navbar-brand {
+  background-color: black;
   padding-left: 10%;
 }
 
 .card {
+  background-color: #376ab6;
   height: 100%;
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
@@ -78,6 +88,10 @@
 .card:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.btn-btn-primary {
+  text-align: center;
 }
 
 .product-details {
