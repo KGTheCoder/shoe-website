@@ -57,18 +57,11 @@
   color: rgb(195, 84, 84);
 }
 
-.containerOfCards {
-  background-color: red;
-  padding: 6rem 0 4rem;
-}
-
 .col-md-3 {
-  background-color: yellow;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 .card {
-  background-color: #376ab6;
   height: 100%;
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
